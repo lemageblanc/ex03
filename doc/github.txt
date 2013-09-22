@@ -1,0 +1,18 @@
+After creating an account, create a remote repository.
+
+http://help.github.com/create-a-repo/
+
+Create a New Repo at GitHub
+(without README, since cloning will not be used).
+Repository Name: rd
+Description:
+  Random data library.
+
+Next steps:
+  cd git/dart/biblio/ex03
+  git init
+  git status
+  git add .
+  git commit -m 'initial version'
+  git remote add origin https://github.com/lemageblanc/ex03.git
+  git push -u origin master
